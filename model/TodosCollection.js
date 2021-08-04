@@ -1,6 +1,6 @@
 
 class TodosCollection {
-    constructor(url) {
+  constructor(url) {
     this._url = url;
     this.list = [];
     this.item = null;    

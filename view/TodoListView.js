@@ -2,9 +2,9 @@
  const ITEM_SELECTOR = '.task-item';
      
 class TodoListView {
-    constructor(config) {
-        this._config = config;
-        this.$el = this.initView();
+  constructor(config) {
+    this._config = config;
+    this.$el = this.initView();
     }
 
     initView() {

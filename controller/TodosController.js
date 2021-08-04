@@ -1,7 +1,7 @@
 
 class TodosController {
  constructor() {
-    this.listView = new TodoListView({
+     this.listView = new TodoListView({
      onToggle: this.toggleTodo.bind(this),
      onDelete: this.deleteTodo.bind(this)
     });

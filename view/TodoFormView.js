@@ -1,9 +1,9 @@
 
 class TodoFormView {
-    constructor(config) {
-        this._config = config;
-        this.$el = this.initView()
-        this.$taskInput = this.$el.find('#newTaskInput');
+  constructor(config) {
+    this._config = config;
+    this.$el = this.initView()
+    this.$taskInput = this.$el.find('#newTaskInput');
     }  
 
     initView() {
